@@ -1,8 +1,28 @@
+mm,dd,yyyy = (str(e) for e in input().split())
+if mm == "01" :
+    print(dd, "JAN", yyyy)
+elif mm == "02" :
+    print(dd, "FEB", yyyy)
+elif mm == "03" :
+    print(dd, "MAR", yyyy)
+elif mm == "04" :
+    print(dd, "APR", yyyy)
+elif mm == "05" :
+    print(dd, "MAY", yyyy)
+elif mm == "06" :
+    print(dd, "JUN", yyyy)
+elif mm == "07" :
+    print(dd, "JUL", yyyy)
+elif mm == "08" :
+    print(dd, "AUG", yyyy)
+elif mm == "09" :
+    print(dd, "SEP", yyyy)
+elif mm == "10" :
+    print(dd, "OCT", yyyy)
+elif mm == "11" :
+    print(dd, "NOV", yyyy)
+elif mm == "12" :
+    print(dd, "DEC", yyyy)
+else:
+    print("ERROR")
 
-string=input("Enter string:")
-vowels=0
-for i in string:
-      if(i=='a' or i=='e' or i=='i' or i=='o' or i=='u' or i=='A' or i=='E' or i=='I' or i=='O' or i=='U'):
-            vowels=vowels+1
-print("Number of vowels are:")
-print(vowels)
