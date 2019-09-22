@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Jame"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-22 07:19:22 PM"/>
+        <attribute name="created" value="SmFtZTtERVNLVE9QLUc1RlZDOTc7MjU2Mi0wOS0yMjswNjo1NjoyNyBQTTsyNzIx"/>
+        <attribute name="edited" value="SmFtZTtERVNLVE9QLUc1RlZDOTc7MjU2Mi0wOS0yMjswNzoxOToyMiBQTTsyOzI4MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PresentYear" type="Integer" array="False" size=""/>
+            <declare name="YearOfBrith" type="Integer" array="False" size=""/>
+            <input variable="PresentYear"/>
+            <input variable="YearOfBrith"/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <assign variable="age" expression="PresentYear-YearOfBrith"/>
+            <output expression="age" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

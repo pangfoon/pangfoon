@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Jame"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-22 07:10:42 PM"/>
+        <attribute name="created" value="SmFtZTtERVNLVE9QLUc1RlZDOTc7MjU2Mi0wOS0yMjswNjo1NjoyNyBQTTsyNzIx"/>
+        <attribute name="edited" value="SmFtZTtERVNLVE9QLUc1RlZDOTc7MjU2Mi0wOS0yMjswNzoxMDo0MiBQTTsxOzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="money" type="Integer" array="False" size=""/>
+            <input variable="money"/>
+            <declare name="tax" type="Integer" array="False" size=""/>
+            <assign variable="tax" expression="int(money*(7/100))"/>
+            <output expression="tax" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
